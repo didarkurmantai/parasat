@@ -106,6 +106,15 @@
 
     // Создаем элементы постоянно
     setInterval(createFallingElement, 400); // каждые 0.4 секунды
+    function toggleWish(element) {
+  const text = element.querySelector(".text");
+
+  if (text.style.display === "block") {
+    text.style.display = "none";
+  } else {
+    text.style.display = "block";
+  }
+}
   </script>
 </body>
 </html>
