@@ -176,3 +176,12 @@ button:hover {
   margin-top: 8px;
   color: #555;
 }
+
+
+.date {
+  cursor: pointer;
+  font-weight: bold;
+  background: #fff5;
+  padding: 8px;
+  border-radius: 10px;
+}
